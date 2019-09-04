@@ -7,7 +7,7 @@ jobs:
         - mvn clean install
     - stage: ECJ 3.17.0
       script:
-        - mvn clean install -Dversion.ecj=3.17.0
+        - mvn clean install -Dversion.ecj=3.18.0
 cache:
   directories:
     - $HOME/.m2
