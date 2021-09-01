@@ -6,5 +6,5 @@ To compile with javac:
 
 To compile with ECJ and witness the different behavior:
 
-> mvn clean install -Dversion.ecj=3.17.0
+> mvn clean install -Dversion.ecj=3.26.0
 
